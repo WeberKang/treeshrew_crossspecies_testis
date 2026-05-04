@@ -143,7 +143,7 @@ obj <- ModuleConnectivity(
 # Rename modules to M1, M2, ..., M15
 obj <- ResetModuleNames(
   obj,
-  _name = "M"
+  new_name = "M"
 )
 
 # =========================== Module Expression Score (UCell) ===========================
